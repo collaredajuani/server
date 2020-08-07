@@ -1,0 +1,159 @@
+body{
+ background-image:url("traje.jpg");
+ overflow-x: hidden;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: relative;
+}
+.menu
+{
+	position: fixed;
+	display: inline-block;
+	padding-left: 71%;
+	border-bottom: 1% solid #e6e2d3;
+	width: 100%;
+	z-index: 30px;
+	 text-decoration: none;
+	height: 5%;
+}
+.form-popup {
+  display: inline-block;
+  position: fixed;
+  margin-left: 2%;
+  border-color: blue;
+  border-width: 122%;
+  border-radius: 10%;
+  bottom: 31%	;
+  left: 31%;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 80%;
+  
+  background-color: white;
+  
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 30%;
+  height: 10%
+  padding: 1%;
+  margin: 2% ;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1% 2%;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+#nav:hover
+{
+	color:red;
+
+}
+#nav{
+  text-decoration: none;
+  color: #e6e2d3;
+  background-color:transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#ulNav {
+  list-style-type: none;
+  text-decoration: none;
+   font-family:sans-serif;
+  margin: 0;
+  padding: 0;
+
+ }
+
+#liNav {
+
+  display: inline;
+  left: 40%;
+   text-decoration: none;
+}
+.center {
+  width: 20%;
+    height: 30%;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-70px;/* half width*/
+    margin-top:5%;/* half height*/
+}
+.title{
+position:absolute;
+left:30%;
+top: 10%;
+color:white;
+font-size: 30px;
+}
+.title2{
+	all:unset;
+	position: absolute;
+	color:#e6e2d3;
+	margin-left:30%;/* half width*/
+    margin-top:20%;
+  	height: 200px;
+  	width: 600px;
+    font-size:30px;
+
+}
+.btn:hover{
+        cursor: pointer;
+}
+    .form-popup button{
+    	all:unset;
+    	text-align: center;
+    	color:#e6e2d3;
+    	font-family:sans-serif;
+    	border-radius: 05%;
+    	height: 10%;
+    	width: 20%;
+    	background: green;
+
+}
+
+    .center button{
+        all:unset;
+    	text-align: center;
+    	color:#e6e2d3;
+    	font-family:sans-serif;
+    	border-radius: 3%;
+    	height: 15%;
+    	width: 30%;
+    	background: green;
+}
+.btn:active{
+        background-color:red;
+    }
+
